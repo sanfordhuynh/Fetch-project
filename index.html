@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJAX Project</title>
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header>
-  </header>
-  <main>
-  </main>
-  <script src="js/data.js"></script>
-  <script src="js/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExcursionExpert</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fbe7d139b6.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="row column-full">
+          <img src="./images/" alt="Curious George" />
+          <h1>ExcursionExpert</h1>
+          <div class="search-bar">
+            <input type="search" id="search" placeholder="Search" />
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2>Travel Destination? &#128064;</h2>
+        <nav class="categories">
+          <a href="#">&#127796;Destination</a>
+          <a href="#">&#127976;Hotels</a>
+          <a href="#">&#128221;Attractions</a>
+          <a href="#">&#127860;Restaurants</a>
+        </nav>
+        <div class="search-panel">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="search"
+            placeholder="Places to go, things to do, hotels..." />
+          <button type="submit">Search</button>
+        </div>
+        <figure>
+          <img src="./images/san fran.jpg" alt="Destination placeholder" />
+        </figure>
+      </div>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
