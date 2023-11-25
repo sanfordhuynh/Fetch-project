@@ -16,8 +16,10 @@
     <header>
       <div class="main-header">
         <div class="row column-full">
-          <img src="./images/" alt="Curious George" />
-          <h1>ExcursionExpert</h1>
+          <img class="george" src="./images/curious.png" alt="Curious George" />
+          <a href="index.html">
+            <h1>ExcursionExpert</h1>
+          </a>
           <div class="search-bar">
             <input type="search" id="search" placeholder="Search" />
 
@@ -28,20 +30,22 @@
     </header>
 
     <main>
-      <div class="container">
-        <h2>Travel Destination? &#128064;</h2>
+      <div class="container homepage">
+        <h2 id="page-title">Travel Destination? &#128064;</h2>
         <nav class="categories">
-          <a href="#">&#127796;Destination</a>
-          <a href="#">&#127976;Hotels</a>
-          <a href="#">&#128221;Attractions</a>
-          <a href="#">&#127860;Restaurants</a>
+          <a href="#" class="category-link" id="destination-link" >&#127796;Destination</a>
+          <a href="#" class="category-link" id="hotels-link">&#127976;Hotels</a>
+          <a href="#" class="category-link" id="attractions-link">&#128221;Attractions</a>
+          <a href="#" class="category-link" id="restaurants-link">&#127860;Restaurants</a>
         </nav>
         <div class="search-panel">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <input
-            type="search"
-            placeholder="Places to go, things to do, hotels..." />
-          <button type="submit">Search</button>
+          <form id="search-form">
+            <div class="input-group">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="search" placeholder="Places to go, things to do, hotels..." />
+              <button type="submit">Search</button>
+            </div>
+          </form>
         </div>
         <figure>
           <img src="./images/san fran.jpg" alt="Destination placeholder" />
@@ -50,9 +54,7 @@
 
       <div class="resultsContainer row">
         <div class="column-half">
-          <div class="location-header">
-            <h1>Location</h1>
-          </div>
+
         </div>
       </div>
     </main>
