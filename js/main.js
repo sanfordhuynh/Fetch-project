@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('destination-link').addEventListener('click', (e) => {
     e.preventDefault();
-    updateActiveCategory('destination-link', 'Travel Destination?');
+    updateActiveCategory('destination-link', 'Travel Destination? 👀');
   });
 
   document.getElementById('hotels-link').addEventListener('click', (e) => {
